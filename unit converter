@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <script>alert("code written by sanchay");
+function pass()
+{
+a=prompt("enter the units for conversion seprate by -to-[eg 'km to m'] ");
+if(a=="m to cm")
+{
+ m=prompt("enter number in meter"); 
+ document.write("result="+m*100+"cm");
+ }
+ else if(a=="cm to m")
+ {
+ cm=prompt("enter number in centimeter"); 
+ document.write("result="+cm/100+"m");
+ }
+ else if(a=="km to m")
+ {
+ km=prompt("enter number in kilometer"); 
+ document.write("result="+km*1000+"m");
+ }
+ else if(a=="m to km")
+ {
+ m1=prompt("enter number in meter"); 
+ document.write("result="+m1/1000+"km");
+ }
+ else if(a=="kg to g")
+ {
+ kg=prompt("enter number in kilograms"); 
+ document.write("result="+km*1000+"g");
+ }
+ else if(a=="g to kg")
+ {
+ g=prompt("enter number in gram"); 
+ document.write("result="+g/1000+"kg");
+ }
+ else if(a=="cm^2 to m^2")
+ {
+ cm=prompt("enter number in centimeter square"); 
+ document.write("result="+cm/1000+"m^2");
+ }
+ else if(a=="m^2 to cm^2")
+ {
+ m=prompt("enter number in meter square"); 
+ document.write("result="+m*1000+"cm^2");
+ }
+ else if(a=="cm to mm")
+ {
+ cm=prompt("enter number in centimeter"); 
+ document.write("result="+cm*10+"mm");
+ }
+ else if(a=="mm to cm")
+ {
+mm=prompt("enter number in millimeter"); 
+ document.write("result="+mm/10+"cm");
+ }
+ else if(a=="cm to nm")
+ {
+cm=prompt("enter number in centimeter"); 
+ document.write("result="+cm*10000000+"nm");
+ }
+ else if(a=="nm to cm")
+ {
+nm=prompt("enter number in nanometer"); 
+ document.write("result="+nm/10000000+"cm");
+ } 
+ else if(a=="mm to nm")
+ {
+mm=prompt("enter number in milimeter"); 
+ document.write("result="+mm*1000000+"nm");
+ }
+ else if(a=="nm to mm")
+ {
+nm=prompt("enter number in nanometer"); 
+ document.write("result="+nm/1000000+"mm");
+ }
+ }
+ </script>
+    <style>body{font-family:cursive;
+text-align:center;
+font-size:30px;
+background-image:radial-gradient(darkblue,violet);
+box-shadow:4px 6px 3px;}
+h2{color:darkblue;}
+h1{color:blue;}
+nav{background-image:linear-gradient(cyan,blue);}
+button{
+    width:150px;
+    box-shadow:3px 4px 6px black;
+    color:darkblue;
+    Background-image:linear-gradient(cyan,blue);
+    font-size:20px;
+}</style>
+    <body>
+    <nav><h1><i>Sanchay</i></h1>
+    <h2><u>  unit Converter</u></h2><hr>
+    </nav>
+    <hr>
+       <center><p>
+           <button onClick="pass()">converter</button>
+         <hr>
+     </p></center>
+    </body>
+</html>
