@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <style>p.p{font-size:100px;
+}
+.style{font-family:courier;
+width:300px;}
+P.s{font-size:large ;
+font-family:courior;}
+P.v{font-size:large ;}
+P.e{font-size:large ;}
+i{font-size:150px;
+font-family:cursive;
+color:orange;}
+Body{background-image:url( https://images.pexels.com/photos/339814/pexels-photo-339814.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);}
+hr{height:3px;
+border-bottom-color:royalblue;
+border-top-color:blue;
+background-color:green;
+border-style:double ;}
+h2{color:darkorange;}
+
+  </style>
+    <body bgcolor=black text=white>
+    <div class=style>
+        <header class=style width=200 height=100 padding=30 fill=red>
+        <p><div class=p><center><h1><i>S</i>ANCHAY's<b> favorite car list</b></i></h1></center>
+        </div>
+<hr>
+<center><h2><i>R</i>imac</h2></center>
+<h2>when it starts the earthquake comes</h2>
+<p text=grey><div=s>rimac c two</p>
+<hr>
+<img src= https://www.rimac-automobili.com/ctwo/gallery/c_two-studio-image-front.jpg width=500px preload="auto"></div>
+ 
+<hr>
+<hr>
+<center><h2><i>B</i>uggati</h2></center>
+<h2>when it starts the earthquake comes</h2>
+<p text=grey><div=s>buggati divo</p>
+<hr>
+<img src= https://www.bugatti.com/fileadmin/_processed_/sei/p326/se-image-32388d3de3d3723541004e82d20d9a5f.webp width=500px preload="auto"></div>
+<iframe width="500" height="203" src="https://www.youtube.com/embed/hqDT5_4z_YI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen preload="auto"></iframe>
+<hr>
+<center><h2><i>L</i>exus</h2></center>
+<h2>when it move the crowd also moves</h2>
+<p text=grey><div=e>lexus lc</p>
+<hr>
+<img src= https://www.lexus.com/cm-img/gallery/2019/LC/Lexus-LC-gallery-overlay-1204x677-LEX-LC5-MY19-0027_M75.jpg width=500px preload="auto"></div>
+<iframe width="500" height="203" src="https://www.youtube.com/embed/cAInncloC-w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen preload="auto"></iframe>
+<hr>
+<center><h2><i>M</i>aserati</u></h2></center>
+<h2>when it rise the demon will rise</h2>
+<p text=grey><div=v>Maserati levante</p>
+<hr>
+<img src= https://www.maserati.com/mediaObject/sites/international/Brand/Alfieri/2016-05-24/Alfieri-9/resolutions/res-l1600x10000/Alfieri-9.jpg width="540" preload="auto"></div>
+<iframe width="360" height="241" src="https://www.youtube.com/embed/7qfzIcv1q8Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen preload"auto"></iframe>
+<hr>
+
+        </header>
+       <center><form action=www.sololearn.com>
+        <input type=text name=username placeholder=nickname required>name</br>
+        <input type=password name=password placeholder=password required>password</br>
+        <textarea name=textarea placeholder=message></textarea>
+        <input type=submit name=submit class=send>
+        </form></center>
+        </div>
+        <h2><p>follow:me on</p></h2>
+        <a href=http:/www.facebook.com>Facebook</a>
+        <a href=http:/www.whatsapp.com>whatsapp</a>
+        <a href=http:/www.twitter.com>twitter</a>
+    </body>
+</html>
