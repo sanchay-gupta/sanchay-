@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Attributes</title>
+    </head>
+    <style>p{border:4px green solid;
+text-align:center;
+padding:20px;
+font-size:40px;
+box-shadow:9px 6px 10px black;}
+b{border:0;width:240px;display:inline-block;height:40px;}
+form{text-align:center;
+font-size:50px;
+box-shadow:4px 5px 3px black;}</style>
+    <body bgcolor=darkblue text=white>
+    <p>sanchay search box</p>
+    <form id="labnol" method="get" action="https://google.com/search">
+    <div class="speech">
+    <input type="text" name="q" id="transcript" placeholder="search"/>
+    <img onclick="startDictation()" src="//i.imgur.com/cHidSVu.gif"/>
+    </div>
+    </form>
+    <hr>
+    </body>
+</html>
