@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int a,b,c;
+   printf("enter 2 digits/numbers to be operated: ");
+   scanf("%d%d",&a,&b);
+   printf("enter among operators (+,-,*,/,%) as 1,2,3,4,5 respectively: ");
+   scanf("%d",&c);
+   switch(c){
+    case 1:
+       printf("result=%d",a+b);
+       break;
+    case 2:
+       printf("result=%d",a-b);
+       break;
+    case 3:
+       printf("result=%d",a*b);
+       break;
+    case 4:
+       printf("result=%d",a/b);
+       break;
+    case 5:
+       printf("result=%d",a%b);
+       break;
+   }
+
+    return 0;
+}
